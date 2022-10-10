@@ -1,0 +1,44 @@
+Script started on Mon 27 Jun 2022 09:21:37 AM PDT
+Setting up for TinyOS 2.1.2
+]0;cyh@ubuntu: /opt/tinyos-2.1.2/apps/RadioCountToLedscyh@ubuntu:/opt/tinyos-2.1.2/apps/RadioCountToLeds$ python test.py
+  1   2   -54.0
+  2   1   -55.0
+  1   3   -60.0
+  3   1   -60.0
+  2   3   -64.0
+  3   2   -64.0
+Creating noise model for  1
+Creating noise model for  2
+Creating noise model for  3
+DEBUG (1): RadioCountToLedsC: timer fired, counter is 1.
+DEBUG (1): RadioCountToLedsC: packet sent.
+DEBUG (2): RadioCountToLedsC: timer fired, counter is 1.
+DEBUG (2): RadioCountToLedsC: packet sent.
+DEBUG (3): RadioCountToLedsC: timer fired, counter is 1.
+DEBUG (3): RadioCountToLedsC: packet sent.
+DEBUG (3): Received packet of length 10.
+DEBUG (3): Delay Time: 9 
+DEBUG (2): Received packet of length 10.
+DEBUG (2): Delay Time: 9 
+DEBUG (1): RadioCountToLedsC: timer fired, counter is 2.
+DEBUG (1): RadioCountToLedsC: packet sent.
+DEBUG (2): RadioCountToLedsC: timer fired, counter is 2.
+DEBUG (2): RadioCountToLedsC: packet sent.
+DEBUG (3): RadioCountToLedsC: timer fired, counter is 2.
+DEBUG (3): RadioCountToLedsC: packet sent.
+DEBUG (3): Received packet of length 10.
+DEBUG (3): Delay Time: 6 
+DEBUG (2): Received packet of length 10.
+DEBUG (2): Delay Time: 6 
+DEBUG (2): Received packet of length 10.
+DEBUG (2): Delay Time: 8 
+DEBUG (1): Received packet of length 10.
+DEBUG (1): Delay Time: 8 
+DEBUG (3): Received packet of length 10.
+DEBUG (3): Delay Time: 10 
+DEBUG (1): Received packet of length 10.
+DEBUG (1): Delay Time: 10 
+]0;cyh@ubuntu: /opt/tinyos-2.1.2/apps/RadioCountToLedscyh@ubuntu:/opt/tinyos-2.1.2/apps/RadioCountToLeds$ python [K[K[K[K[K[K[Kexit
+exit
+
+Script done on Mon 27 Jun 2022 09:22:00 AM PDT
